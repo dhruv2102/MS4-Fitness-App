@@ -1,6 +1,45 @@
 {% extends "base.html" %}
 {% load static %}
 
+
+{% block page_header %}
+    <div class="container header-contianer">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+
 {% block content %}
-<h1 class="display-4 text-success">Test</h1>
-{% endblock %} 
+    <div class="container h-100">
+        <div class="row h-100">
+            <div class="col-6 col-md-6 my-auto">
+                <h1 class="display-8 text-uppercase">
+                    New Years's Best Deal
+                </h1>
+                <h2 class="">
+                    Buy any program and get the recipe book free
+                </h2>
+                <div class="my-5">
+                    <h4>
+                        <a href="" class="btn btn-ls rounded-0 text-uppercase py-3">Buy Now</a>
+                    </h4>
+                </div>
+            </div>    
+        </div>
+        <div class="row h-100">
+            <div class="col-6 col-md-6 my-auto">
+                <h2 class="text-uppercase">
+                    become one of our member
+                </h2>
+            </div>
+            <div class="col-6 col-md-6 my-auto">
+                <h2 class="text-uppercase">
+                    Get started Today
+                </h2>
+            </div>        
+        </div>
+
+    </div>
+{% endblock %}
